@@ -25,7 +25,7 @@ def play_game(board_size=5, ship_count=3, shots=6):
     ships = place_ships(board, ship_count)
     hits = 0
 
-    print("Witamy w grze w statki!")
+    print("Witaj w grze w statki!")
     print(f"Musisz zniszczyć {ship_count} statki, masz {shots} strzałów.")
     print_board(board)
 
